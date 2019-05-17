@@ -4,7 +4,7 @@
 # touch test2.js
 
 killall node
-cd /media/app/kellmas-backend
+cd /home/azureuser/kellmas-backend
 touch somerandomfile.txt
 git pull
 touch somerandomfile2.txt
