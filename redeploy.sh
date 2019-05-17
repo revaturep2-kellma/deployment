@@ -5,4 +5,4 @@ az vm extension set \
   --vm-name kellma-vm-be \
   --name customScript \
   --publisher Microsoft.Azure.Extensions \
-  --settings '{"fileUris": ["https://gitcdn.link/repo/revaturep2-kellma/deployment/master/backend.sh"],"commandToExecute": "./backend.sh"}'
+  --settings '{"fileUris": ["https://raw.githubusercontent.com/revaturep2-kellma/deployment/master/backend.sh"],"commandToExecute": "./backend.sh"}'
