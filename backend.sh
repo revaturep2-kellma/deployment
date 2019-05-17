@@ -3,12 +3,14 @@
 # cd /home/azureuser
 # touch test2.js
 
-killall node
+# killall node
+cd /home/azureuser
+touch somerandomfile.txt
 cd /home/azureuser/kellmas-backend
 touch somerandomfile.txt
-git pull
-touch somerandomfile2.txt
-npm install
-touch somerandomfile3.txt
-npm start
-touch somerandomfile4.txt
+# git pull
+# touch somerandomfile2.txt
+# npm install
+# touch somerandomfile3.txt
+# npm start
+# touch somerandomfile4.txt
